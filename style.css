@@ -538,3 +538,42 @@ margin-top: 100px;
         margin: 25px 0px 10px 0px;
     }
 }
+/* Estilos para el carrito */
+#carrito {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  tfoot td {
+    text-align: right;
+  }
+  
+  /* Estilos para los productos */
+  .producto {
+    margin-bottom: 20px;
+  }
+  
+  .agregar-carrito {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
