@@ -1,1 +1,3 @@
-# proyecto-kennedy
+# Tarea final Kennedy
+
+Colaboradores @arialdy12
