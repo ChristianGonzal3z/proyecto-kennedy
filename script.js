@@ -35,9 +35,18 @@ var swiper = new Swiper(".mySwiper-2", {
 
     });
 
+    let tabInputs = document.querySelectorAll(" .tabInput");
+    tabInputs.forEach(function(input){
+        Input.addEventListener("change", function(){
+            let id = input.ariavalueMax;
+            let thisSwiper = document.getElementById("swiper" + id);
+            thisSwiper.swiper.update();
+        })
 
 
 
+
+        
 
 //variables
 let allContainerCart = document.querySelector('.products');
@@ -147,14 +156,6 @@ function loadHtml(){
     containerBuyCart.innerHTML = '';
  }
 
-    let tabInputs = document.querySelectorAll(" .tabInput");
-    tabInputs.forEach(function(input){
-        Input.addEventListener("change", function(){
-            let id = input.ariavalueMax;
-            let thisSwiper = document.getElementById("swiper" + id);
-            thisSwiper.swiper.update();
-        })
-        
         
     })
 

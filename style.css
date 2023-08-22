@@ -13,9 +13,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
-
-
 .submenu {
     position: relative;
 }
@@ -93,6 +90,7 @@ td {
     z-index: 1000;
 }
 
+
 .navbar {
     display: flex;
 }
@@ -125,6 +123,7 @@ td {
 }
 
 .social:hover {
+      transform: scale(1.1);
       background-color: #DB2418;
 }
 
@@ -178,19 +177,36 @@ td {
 }
 
 .slider-txt h1{
-    font-size: 70px;
+    font-size: 50px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 800;
+    margin-left: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
 .slider-txt p {
+    margin-top: 15px;
     font-size: 18px;
     color: #A7A7A7;
+    margin-left: 70px;
+
 }
 
 .botones {
-    margin-top: 50px;
+    margin-top: 45px;
+    
 }
+
 
 .btn-1 {
     display: inline block;
@@ -205,16 +221,24 @@ td {
 }
 
 .btn-1:hover {
+    transform: scale(1.1);
     background-color: #DB2418;
 }
 
 .slider-img {
     width: 50%;
+    margin-left: 70px;
+}
+
+.slider-img:hover {
+    transform: scale(1.1);
 }
 
 .slider-img img {
     margin-right: 225px;
-    width: 550px;
+    width: 400px;
+    justify-content: space-between;
+    padding: .5rem;
 }
 
 .products {
@@ -302,6 +326,10 @@ td {
     width: 150px;
     height: 120px;
     }
+.product-img:hover {
+    transform: scale(1.1);
+
+}
 
     .product-txt { 
         width: 50%;
@@ -578,3 +606,5 @@ margin-top: 100px;
         margin: 25px 0px 10px 0px;
     }
 }
+
+

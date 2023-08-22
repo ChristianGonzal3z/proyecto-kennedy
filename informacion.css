@@ -137,8 +137,10 @@ body {
   }
   
   .person p {
-    font-size: 16px;
+   font-family:'Oswald', sans-serif;
+    font-size: 30px;
     color: #DB2418;
+    
   }
 
   .footer {
@@ -165,3 +167,4 @@ body {
     display: block;
     margin-bottom: 10px;
 }
+
