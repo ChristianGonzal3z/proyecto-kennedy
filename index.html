@@ -4,14 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE edge" />
     <meta name="viewport" content="width-device-width, initial-scale 1.0" />
-    <title>Food Dev Code</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-
-
-    />
-    <link rel="stylesheet" href="style.css" />
+    <title>Food Divcode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="images/logo.svg">
   </head>
   <body>
     <header>
@@ -25,7 +21,7 @@
           <div class="menu-1">
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="#info">Servicios</a></li>
+              <li><a href="#info">contáctanos</a></li>
               <li><a href="#tabs1">Productos</a></li>
             </ul>
           </div>
@@ -64,6 +60,15 @@
                           <tbody></tbody>
                         </table>
                         <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        <div class="cart-total">  
+                        
+                      </div>
+                      <div class="cart-total">
+                        <div class="pagar">
+                          Total a Pagar: <span id="total-pagar">0.00</span>
+                        </div>
+                       
+                      </div>
                       </div>
         
                     </li>
@@ -93,8 +98,8 @@
                     quis!
                   </p>
                   <div class="botones">
-                    <a href="#" class="btn-1">Comprar</a>
-                    <a href="#" class="btn-1">Menu</a>
+                    <a href="#tabs1" class="btn-1">Comprar</a>
+                    <a href="#tabs1" class="btn-1">Menu</a>
                   </div>
                 </div>
                 <div class="slider-img">
@@ -115,8 +120,8 @@
                     temporibus?
                   </p>
                   <div class="botones">
-                    <a href="#" class="btn-1">Comprar</a>
-                    <a href="#" class="btn-1">Menu</a>
+                    <a href="#tabs1" class="btn-1">Comprar</a>
+                    <a href="#tabs1" class="btn-1">Menu</a>
                   </div>
                 </div>
                 <div class="slider-img">
@@ -137,8 +142,8 @@
                     temporibus?
                   </p>
                   <div class="botones">
-                    <a href="#" class="btn-1">Comprar</a>
-                    <a href="#" class="btn-1">Menu</a>
+                    <a href="#tabs1" class="btn-1">Comprar</a>
+                    <a href="#tabs1" class="btn-1">Menu</a>
                   </div>
                 </div>
                 <div class="slider-img">
@@ -155,29 +160,30 @@
     </header>
 
 
-
-
     <main class="Products">
         
         
       <div class="tabs container">
         <div id="tabs1">
-
+  
         <input type="radio" name="tabs" id="tabs1" checked="checked" class="tabInput" value="1">
         <label for="tab1">Hamburguesa</label>
         <div class="tab">
           <div class="swiper mySwiper-2" id="swiper1">
             <div class="swiper-wrapper">
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
+                    
                     <img src="images/food1.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -185,16 +191,18 @@
                   </div>
                 </div>
               </div>
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food 31.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -202,18 +210,20 @@
                   </div>
                 </div>
               </div>
-
-
-
+  
+  
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food2.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -221,17 +231,19 @@
                   </div>
                 </div>
               </div>
-
-
+  
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/hambuerger.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -239,16 +251,18 @@
                   </div>
                 </div>
               </div>
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/hamburger2.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -256,16 +270,18 @@
                   </div>
                 </div>
               </div>
-
+  
                 <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food 4.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -273,18 +289,20 @@
                   </div>
                 </div>
               </div>
-
-
-
+  
+  
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food3.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -293,12 +311,12 @@
                 </div>
               </div>
             </div>
-
+  
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
         </div>
-
+  
         <input type="radio" name="tabs" id="tabs2" checked="checked" class="tabInput" value="2">
         <label for="tab1">Burritos</label>
         <div class="tab">
@@ -307,12 +325,14 @@
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food4.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -320,16 +340,18 @@
                   </div>
                 </div>
               </div>
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food5.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -337,16 +359,18 @@
                   </div>
                 </div>
               </div>
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food6.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -359,7 +383,7 @@
             <div class="swiper-button-prev"></div>
           </div>
         </div>
-
+  
         <input
           type="radio" name="tabs" id="tabs3" checked="checked" class="tabInput" value="3">
         <label for="tab3">Variedad</label>
@@ -369,12 +393,14 @@
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food7.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -382,16 +408,18 @@
                   </div>
                 </div>
               </div>
-
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food8.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -399,17 +427,19 @@
                   </div>
                 </div>
               </div>
-
-
+  
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/variedad.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -417,17 +447,19 @@
                   </div>
                 </div>
               </div>
-
-
+  
+  
               <div class="swiper-slide">
                 <div class="product">
                   <div class="product-img">
-                    <h4>Nuevo</h4>
+                    <div>
+                      <h4 class="nu">Nuevo</h4>
+                    </div>
                     <img src="images/food9.png" alt="" />
                   </div>
                   <div class="product-txt">
                     <h4>Producto</h4>
-                    <p>Calidad Premium</p>
+                    <p>calidad premiun</p>
                     <span class="price">80.00</span>
                     <br>
                     <br>
@@ -444,6 +476,7 @@
       </div>
     </main>
 
+
     <section class="info container">
       <div class="info-img">
         <img src="images/info.png" alt="" />
@@ -457,7 +490,7 @@
           quis doloremque atque soluta enim quam a ea culpa eos, possimus quas
           fugiat commodi sapiente dicta illo corrupti, facere odio?
         </p>
-        <a href="/informacion.html" class="btn-3">Mas información</a>
+        <a href="/informacion.html" class="btn-3">contáctanos</a>
       </div>
     </div>
     </section>
@@ -468,7 +501,7 @@
         <h2>Horario</h2>
         <div class="horario-txt">
           <div class="txt">
-            <h4>Direccion</h4>
+            <h4>Dirección</h4>
             <p>Escuel Primaria Bill Grant, La Romana 22000</p>
           </div>
           <div class="txt">
@@ -477,9 +510,9 @@
             <p>Sabados y Domingo : 10 am - 12 pm</p>
           </div>
           <div class="txt">
-            <h4>Telefono</h4>
+            <h4>Teléfono</h4>
             <p>809-550-2008</p>
-            <p>829-215-6733</p>
+            <p>809-550-2008</p>
           </div>
           <div class="txt">
             <h4>Redes Sociales</h4>
@@ -568,11 +601,10 @@
         </div>
       </div>
     </footer>
-
+   
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="scriptcarrito.js"></script>
-
 
   </body>
 </html>

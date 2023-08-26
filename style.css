@@ -184,16 +184,6 @@ td {
     margin-left: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .slider-txt p {
     margin-top: 15px;
     font-size: 18px;
@@ -207,6 +197,17 @@ td {
     
 }
 
+.nu {
+    display: inline block;
+    padding: 8px 15px;
+    background-color: #DB2418;
+    color: #dfdde0;
+    font-size: 9px;
+    margin-top: 25px;
+    border-radius: 25px;
+
+   
+}
 
 .btn-1 {
     display: inline block;
@@ -263,6 +264,18 @@ td {
     font-weight: 700;
     transition: background ease 0.2s;
 }
+
+.pagar{
+   text-align: center;
+    padding: 8px 15px;
+    background-color: #DB2418;
+    color: #dfdde0;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
 .tabs .tabs {
     order: 99;
     flex-grow: 1;
@@ -281,7 +294,7 @@ td {
     padding: 8px 15px;
     background-color: #DB2418;
     color: #dfdde0;
-    font-size: 9px;
+    font-size: 13px;
     margin-top: 25px;
     border-radius: 25px;
 
@@ -577,6 +590,7 @@ margin-top: 100px;
     .btn-1 {
      font-size: 16px;
                     }
+
      .horario {
     padding: 30px;
      text-align: center;
